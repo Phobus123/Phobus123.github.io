@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body{
+	background: #202021;
+}
+
+#startPic{
+	background-image: url("../Untitled7_Blacked.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	color: white;
+}
+
+.jumbotron{
+	margin-top: 10px;
+}
+
+.carousel-25{
+	height: 25vh !important;
+}
+
+.carousel-50{
+	height: 50vh !important;
+}
+
+.nav a{
+	border-top: 20px transparent;
+}
+
+.nav a.active {
+	border-color: #DCAB6D !important;
+	border-bottom-width: 3px;
+}
+
+.button-long{
+	padding-left: 75px !important;
+    padding-right: 75px !important;
+}
+
+.button-medium, .button.medium {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 0.75em;
+    line-height: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button-xlarge, .button.xlarge {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1em;
+    line-height: 21px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button-wrapper{
+	margin: 25px;
+}
+
+.silver-gradient{
+	background: -webkit-linear-gradient(top, #eaeaea 0%,#a8a8a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ededed 0%,#a8a8a8 100%);
+}
+
+.gold-button{
+	background-image:  -webkit-linear-gradient( bottom, #d69e5a, #e8c090 );
+	background-image: -webkit-gradient( linear, left bottom, left top, from( #d69e5a ), to( #e8c090 ) );
+	background-image: linear-gradient( to top,#d69e5a, #e8c090 );
+	color: white !important;
+}
+
+.gold-button:hover{
+	background-image:  -webkit-linear-gradient( bottom, #e8c090, #d69e5a);
+	color: white !important;
+	border: none;
+}
+
+.separator{
+	border-color: #767676;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.separator-double{
+	height: 8px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+.indent-left{
+	margin-left: 60px;
+}
+
+.center-cropped{
+  	overflow: hidden;
+}
+
+.car-individual-wrapper{
+	background: #676767;
+	width: 100%;
+	border-radius: 5px;
+}
+
+/*Promotions.html*/
+.promotion-wrapper{
+	
+}
+
+/*Social Media Buttons*/
+
+footer{
+	background: hsla(0,0%,31%,1.00);
+	color: white;
+	max-height: 200px;
+	overflow: hidden;
+	margin-top: 15px;
+	padding: 15px;
+}
+
+/*media queries*/
+
+@media all and (min-width: 992px) {
+	footer{
+		
+	}
+}
+ 
+@media all and (max-width: 992px) and (min-width: 768px) {
+    footer{
+		max-height: none;
+		overflow: auto;
+	}
+}
+ 
+@media all and (max-width: 768px) and (min-width: 576px) {
+    footer{
+		max-height: none;
+		overflow: auto;
+	}
+}
+
+@media all and (max-width: 3576px) {
+    footer{
+		max-height: none;
+		overflow: auto;
+	}
+}
