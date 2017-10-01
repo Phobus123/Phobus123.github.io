@@ -115,10 +115,30 @@ body{
 	margin-bottom: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .car-individual-wrapper img{
 	width: 100%;
+}
+
+.car-individual-wrapper h3{
+	font-weight: 600;
+}
+
+.car-individual-wrapper p{
+	text-align: center;
+}
+
+.car-category{
+	color: #C4C4C4;
+}
+
+.car-category h3{
+	font-weight: 600;
 }
 
 /*Aboutus.html*/
