@@ -3990,7 +3990,7 @@ tbody.collapse.show {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
+  content: url(iconfinder-icon.svg);
   background: no-repeat center center;
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;

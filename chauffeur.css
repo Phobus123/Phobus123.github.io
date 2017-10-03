@@ -14,6 +14,12 @@ body{
 	color: white;
 }
 
+.navbar-menu-toggle-holder{
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .jumbotron{
 	margin-top: 10px;
 }
@@ -200,13 +206,24 @@ footer{
 }
  
 @media all and (max-width: 768px) and (min-width: 576px) {
+	
+	.navbar-menu-toggle-holder{
+		display: flex;
+	}
+	
     footer{
 		max-height: none;
 		overflow: auto;
 	}
 }
 
-@media all and (max-width: 3576px) {
+@media all and (max-width: 576px) {
+	.navbar-menu-toggle-holder{
+		display: flex;
+	}
+	.navbar-collapse{
+		display: none;
+	}
     footer{
 		max-height: none;
 		overflow: auto;
