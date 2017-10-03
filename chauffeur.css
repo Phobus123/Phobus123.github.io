@@ -212,12 +212,17 @@ footer{
 	}
 	
     footer{
+		display: flex;
+		flex-direction: column;
 		max-height: none;
 		overflow: auto;
 	}
 }
 
 @media all and (max-width: 576px) {
+	.dropdown-menu{
+		display: block;
+	}
 	.navbar-menu-toggle-holder{
 		display: flex;
 	}
@@ -225,6 +230,8 @@ footer{
 		display: none;
 	}
     footer{
+		display: flex;
+		flex-direction: column;
 		max-height: none;
 		overflow: auto;
 	}
