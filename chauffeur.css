@@ -148,6 +148,13 @@ body{
 	margin-bottom: 30px;
 }
 
+.thumbnail{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .thumbnail h3{
 	text-transform: none;
 	font-weight: 600;
@@ -155,6 +162,8 @@ body{
 
 .thumbnail img{
 	height: 150px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 /*Promotions.html*/
 .promotion-wrapper{
@@ -169,7 +178,7 @@ body{
 footer{
 	background: hsla(0,0%,31%,1.00);
 	color: white;
-	max-height: 200px;
+	max-height: 50%;
 	overflow: hidden;
 	margin-top: 15px;
 	padding: 15px;
