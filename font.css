@@ -19,13 +19,12 @@ h2{
 h3{
     font-size: 1.5em;
     line-height: 1.618em;
-    text-transform: uppercase;
 }
 
 h4{
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: lighter;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 p{
@@ -87,7 +86,7 @@ p{
 		font-size: 3em !important;
 	}
 	h2{
-		font-size: 1.5em !important;
+		font-size: 2em !important;
 	}
 }
 
@@ -95,5 +94,13 @@ p{
     body{
         font-size: 14px;
     }
- 
+ 	h1{
+		font-size: 3em !important;
+	}
+	h2{
+		font-size: 2em !important;
+	}
+	h3{
+		font-size: 1.5em;
+	}
 }

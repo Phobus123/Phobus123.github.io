@@ -60,7 +60,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
-  color: #d69e5a;
+  color: #D1BB6F;
 }
 
 abbr[title] {
@@ -406,7 +406,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #DCAB6D !important;
+  color: #D1BB6F !important;
 }
 
 a:not([href]):not([tabindex]) {
