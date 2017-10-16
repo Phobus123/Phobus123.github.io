@@ -218,6 +218,14 @@ body{
 	margin-bottom: 30px;
 }
 
+.separator-single{
+	height: 1px;
+	border-bottom-width: 0.25px;
+	border-bottom-style: solid;
+    border-top-width: 0.25px;
+	border-top-style: solid;
+}
+
 .separator-double{
 	height: 8px;
     border-bottom-width: 0.5px;
@@ -290,9 +298,28 @@ body{
 	font-weight: 600;
 }
 
+/*Rolls Royce Limousines*/
+.individual-service-header{
+	background: #D1BB6F;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;	
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+}
+
+.individual-service{
+	
+}
+
+.individual-service img{
+	width: 150px;
+}
+
 /*Aboutus.html*/
 .main-service-wrapper{
-	border-color: #DCAB6D !important;
+	border-color: #D1BB6F !important;
 	border: white thin 3px !important;
 	margin-bottom: 30px;
 }
@@ -314,6 +341,34 @@ body{
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
+
+/*weddingpackages.html*/
+.package-header{
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.package-price{
+	color: white;
+}
+
+.package-details-trigger{
+}
+
+.package-details-trigger i{
+	margin-left: 5px;
+	margin-top: 1rem;
+}
+
+.package-details-body{
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.package-wrapper{
+	margin-bottom: 2rem;
+}
+
 /*Promotions.html*/
 .promotion-wrapper{
 	
@@ -427,6 +482,7 @@ body{
 
 .social-media-button{
 	margin: 15px;
+	height: 32px;
 }
 
 footer{
@@ -439,12 +495,19 @@ footer{
 }
 
 footer h4{
-	font-weight: 600;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 footer p{
 	font-weight: lighter;
 	line-height: 0.5em;
+	font-size: 0.75em;
+}
+
+footer h5{
+	font-size: 0.5em;
+	text-align: center;
 }
 
 .arrow {
@@ -536,5 +599,9 @@ footer p{
 		overflow: auto;
 		align-content: center;
 		justify-content: center;
+	}
+	.social-media-button{
+		margin: 15px;
+		height: 24px;
 	}
 }
