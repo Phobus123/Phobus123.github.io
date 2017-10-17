@@ -39,9 +39,9 @@
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="rollsroycelimousines.html" role="button" aria-haspopup="true" aria-expanded="false">Rolls Royce Limousines</a>
 						<ul class="hidden-dropdown-menu">
 						  <li><a class="dropdown-item" href="airporttransfers.html">Airport Transfers</a></li>
-						  <li><a class="dropdown-item" href="#">Corporate Services</a></li>
-						  <li><a class="dropdown-item" href="#">Dedicated VIP Services</a></li>
-						  <li><a class="dropdown-item" href="#">Parties & Events</a></li>
+						  <li><a class="dropdown-item" href="corporateservices.html">Corporate Services</a></li>
+						  <li><a class="dropdown-item" href="dedicatedvipservices.html">Dedicated VIP Services</a></li>
+						  <li><a class="dropdown-item" href="partiesandevents.html">Parties & Events</a></li>
 						</ul>
 				  </li>
 				  <li class="nav-item">
@@ -66,14 +66,12 @@
 			</div>
 		</nav>
 		<div>
-			<div class="container">
-				<div class="jumbotron">
-					<h2>
-						Our Cars
-			  		</h2>
-			  		<p class="m-0">With our extensive fleet of cars, there's sure to be one for every occasion.</p>
+			<div id="ourcarsheaderpic" class="header-pic">
+				<div class="header-pic" style="background: rgba(0,0,0,0.25); width: 100%; height: 100%;">
+					<div><h1 class="header-pic-header">Our Cars</h1></div>
+					<div><h3 class="header-pic-subheader">With our extensive fleet of cars, there's sure to be one for every occasion.</h3></div>
 				</div>
-												
+			</div>			
 			<div class="container">
 				<div class="row">
 					<div class="container text-center car-category">
@@ -84,6 +82,33 @@
 						
 					<div class="col-lg-4 car-individual-wrapper">
 						<h3>Lamborghini Aventador</h3>
+						<div id="carouselExampleSlidesOnly" class="carousel slide car-individual-carousel" data-ride="carousel">
+		 					<ol class="carousel-indicators">
+								<li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+								<li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner car-individual-carousel-inner">
+								<div class="carousel-item active">
+								  <!--<img class="d-block w-100 h-25" style="position: 50% 50%" src="Untitled5_Blacked.jpg" alt="First slide">-->
+								  <div class="w-100" id="firstLamboPic"></div>
+								</div>
+								<div class="carousel-item">
+								  <div class="w-100" id="secondLamboPic"></div>
+								</div>
+								<div class="carousel-item">
+								  <div class="w-100" id="thirdLamboPic"></div>
+								</div>
+							  </div>
+							<a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							  </a>
+							<a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							  </a>
+						</div>
 						<img src="LP700W D.jpg" alt="Aventador"/>
 						<p>700 horsepower. 0-100 km/h in 2.9 seconds. All thrill, full speed, nothing less.</p>
 						<div>
