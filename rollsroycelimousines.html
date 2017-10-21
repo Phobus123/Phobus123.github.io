@@ -26,23 +26,23 @@
 			<div class="navbar-collapse" id="navbarToggled">
 				<ul class="nav justify-content-center flex-column flex-sm-row">
 				  <li class="nav-item">
-					<a class="nav-link flex-sm-fill text-sm-center" href="#">Home</a>
+					<a class="nav-link flex-sm-fill text-sm-center active" href="#">Home</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link flex-sm-fill text-sm-center" href="aboutus.html">About Us</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="rollsroycelimousines.html" role="button" aria-haspopup="true" aria-expanded="false">Rolls Royce Limousines</a>
-						<ul class="hidden-dropdown-menu">
+					<a class="nav-link collapse-trigger" data-toggle="collapse" data-target="#rollsroycelimousines" href="rollsroycelimousines.html" role="button" ria-expanded="false" aria-controls="collapseExample">Rolls Royce Limousines</a>
+						<ul class="hidden-dropdown-menu" id="rollsroycelimousines">
 						  <li><a class="dropdown-item" href="airporttransfers.html">Airport Transfers</a></li>
-						  <li><a class="dropdown-item" href="#">Corporate Services</a></li>
-						  <li><a class="dropdown-item" href="#">Dedicated VIP Services</a></li>
-						  <li><a class="dropdown-item" href="#">Parties & Events</a></li>
+						  <li><a class="dropdown-item" href="corporateservices.html">Corporate Services</a></li>
+						  <li><a class="dropdown-item" href="dedicatedvipservices.html">Dedicated VIP Services</a></li>
+						  <li><a class="dropdown-item" href="partiesandevents.html">Parties & Events</a></li>
 						</ul>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="rollsroyceweddings.html" role="button" aria-haspopup="true" aria-expanded="false">Rolls Royce Weddings</a>
-						<ul class="hidden-dropdown-menu">
+					<a class="nav-link collapse-trigger" data-toggle="collapse" data-target="#rollsroyceweddings" aria-expanded="false" aria-controls="collapseExample">Rolls Royce Weddings</a>
+						<ul class="hidden-dropdown-menu" id="rollsroyceweddings">
 						  <li><a class="dropdown-item" href="weddingpackages.html">Wedding Packages</a></li>
 						  <li><a class="dropdown-item" href="weddingconvoys.html">Wedding Convoys</a></li>
 						  <li><a class="dropdown-item" href="weddingfleet.html">Wedding Fleet</a></li>
@@ -53,7 +53,7 @@
 					<a class="nav-link" href="rates&reservations.html">Rates & Reservations</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link nav-active active" href="ourcars.html">Our Cars</a>
+					<a class="nav-link nav-active" href="ourcars.html">Our Cars</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link flex-sm-fill text-sm-center" href="promotions.html">Promotions</a>
@@ -98,9 +98,9 @@
 		
 		<div>
 			<div class="container">
-				<div class="row">
+				<div class="row" id="our1stpriorityheader">
 					<div class="col-lg-6">
-						<h2>Our #1 Priority - You, the customer!</h2>
+						<h2 class="service-header">Our #1 Priority - You, the customer!</h2>
 						<div>
 							<p>As the leading Chauffeur service provider, Chauffeur.com is proud of the chauffeur-driven service we offer and hold ourselves to the highest standards. From our dedicated customer sales & support personnel, to our professional drivers and our workshop mechanics and valets, the whole Chauffeur.com team truly cares about customer satisfaction; which is also why we own and maintain our own late model Rolls Royce and Exotic car fleet.</p>
 						</div>
@@ -109,12 +109,14 @@
 			</div>
 		</div>
 		
+		<div class="separator separator-double container"></div>
+		
 		<div>
 			<div class="container">
 				<div class="row reason-wrapper" id="firstReasonWrapper">
 					<img class="card-img h-50" src="rolls-royce-egchauffeurs-tranfer.jpg" width="50%" height="50%">
 					<div class="col-lg-6">
-						<h2>Chauffeur-driven Rolls Royce Chauffeur Specialists</h2>
+						<h2 class="service-header">Chauffeur-driven Rolls Royce Chauffeur Specialists</h2>
 						<div>
 							<p>Whatever chauffeur needs your require to satisfy, Chauffeur.com can supply it. From a chauffeured Rolls Royce Ghost to transfer you to and from Singapore's Changi Airpprt, to a Rolls Royce Ghost wedding car for your special day once in a lifetime. Or perhaps a trip to to the Singapore City Centre for a spot of retail therapy plus dinner.</p>
 						</div>
@@ -122,11 +124,12 @@
 				</div>
 				<div class="row reason-wrapper" id="secondReasonWrapper">
 					<div class="col-lg-6">
-						<h2>The best and nothing less</h2>
+						<h2 class="service-header">The best and nothing less</h2>
 						<div>
-							<p>When you hire a Rolls Royce Ghost or any exotic cars from Herts Rollers, there’s no need to worry about your vehicle, chauffeur, or the service you’ll receive. Whether your requirement is for a Rolls Royce wedding car in or a chauffeured Rolls Royce for a special night out anywhere in the bustling city, you can’t go wrong when you hire your special vehicle from HChauffeur.com.</p>
+							<p>When you hire a Rolls Royce Ghost or any exotic cars from Chauffeur.com, there’s no need to worry about your vehicle, chauffeur, or the service you’ll receive. Whether your requirement is for a Rolls Royce wedding car in or a chauffeured Rolls Royce for a special night out anywhere in the bustling city, you can’t go wrong when you hire your special vehicle from HChauffeur.com.</p>
 						</div>
 					</div>
+					
 					<img class="card-img h-50" src="Private Limousine 2.JPG" width="50%" height="50%">
 				</div>
 			</div>
@@ -156,8 +159,7 @@
 			</div>
 			<div class="container">
 				<div class="row">
-				<div class="col-sm-6">&copy Chauffeur.com 2017 All rights reserved</div>
-				<div class="col-sm-6"></div>
+				<div class="col-lg-12 col-sm-12"><h5>&copy Chauffeur.com 2017 All rights reserved</h5></div>
 				</div>
 			</div>
 		</footer>
